@@ -96,6 +96,11 @@ DROP DATABASE <database_name>;
 CREATE TABLE <table_name> (ID SERIAL PRIMARY KEY, name VARCHAR(255), email VARCHAR(255), age INT, dob DATE);
 ```
 
+### Specific Table එකක Schema බලන්න.
+```
+\d <table_name>
+```
+
 ### Table එකකට දත්ත ඇතුලත් කිරීම.
 
 ඉහත සාදාගත් table එකට පහත දත්තයන් ඇතුලත් කරන ආකාරය බලමු. ID field එක auto generate වේ.
